@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
-    "lib": ["es7"]
+    "lib": ["es7"],
+    "types": ["node"],
+    "typeRoots": ["node_modules/@types"]
   },
   "include": [
     "*"
