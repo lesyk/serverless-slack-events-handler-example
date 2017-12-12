@@ -1,0 +1,33 @@
+{
+  "name": "slack-events-handler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "url": "",
+    "type": "git"
+  },
+  "engines": {
+    "node": "^6.10.3",
+    "npm": "^5.5.1",
+    "yarn": "^1.3.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "eslint": "^4.13.1",
+    "express": "^4.16.2",
+    "nodemon": "^1.12.5",
+    "serverless": "^1.24.1",
+    "serverless-http": "^1.5.2",
+    "typescript": "^2.6.2"
+  },
+  "scripts": {
+    "start": "tsc -p tsconfig.json && node ./index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.58"
+  }
+}
