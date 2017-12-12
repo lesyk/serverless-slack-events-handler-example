@@ -1,4 +1,4 @@
-# slack-events-handler
+# serverless-slack-events-handler-example
 
 ## Install
 1. Install packages
