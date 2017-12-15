@@ -2034,9 +2034,9 @@ node-pre-gyp@^0.6.39:
     tar "^2.2.1"
     tar-pack "^3.4.0"
 
-nodemon@^1.13.1:
-  version "1.13.1"
-  resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-1.13.1.tgz#881b614c60e0a166c1f818002bff5435d95b8109"
+nodemon@^1.13.2:
+  version "1.13.2"
+  resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-1.13.2.tgz#4f772d8e68ecbd9792d5af39f0dad6f708e46ef1"
   dependencies:
     "@remy/pstree" "^1.0.1"
     chokidar "^1.7.0"
