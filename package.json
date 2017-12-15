@@ -19,7 +19,7 @@
     "body-parser": "^1.18.2",
     "eslint": "^4.13.1",
     "express": "^4.16.2",
-    "nodemon": "^1.12.5",
+    "nodemon": "^1.13.1",
     "serverless": "^1.24.1",
     "serverless-http": "^1.5.2",
     "typescript": "^2.6.2"
