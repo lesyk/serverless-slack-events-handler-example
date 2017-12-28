@@ -20,9 +20,9 @@
   version "0.10.2"
   resolved "https://registry.yarnpkg.com/@types/graphql/-/graphql-0.10.2.tgz#d7c79acbaa17453b6681c80c34b38fcb10c4c08c"
 
-"@types/node@^8.5.1":
-  version "8.5.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.5.1.tgz#4ec3020bcdfe2abffeef9ba3fbf26fca097514b5"
+"@types/node@^8.5.2":
+  version "8.5.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.5.2.tgz#83b8103fa9a2c2e83d78f701a9aa7c9539739aa5"
 
 abbrev@1:
   version "1.1.1"
