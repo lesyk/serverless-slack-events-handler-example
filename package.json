@@ -28,6 +28,6 @@
     "start": "tsc -p tsconfig.json && node ./index.js"
   },
   "devDependencies": {
-    "@types/node": "^8.5.1"
+    "@types/node": "^8.5.2"
   }
 }
