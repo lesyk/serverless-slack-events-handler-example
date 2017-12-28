@@ -1,4 +1,5 @@
-# slack-events-handler
+# serverless-slack-events-handler-example
+[![Build Status](https://travis-ci.org/AtoriAI/serverless-slack-events-handler-example.svg?branch=master)](https://travis-ci.org/AtoriAI/serverless-slack-events-handler-example)
 
 ## Install
 1. Install packages
