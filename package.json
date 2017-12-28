@@ -17,9 +17,9 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "eslint": "^4.13.1",
+    "eslint": "^4.14.0",
     "express": "^4.16.2",
-    "nodemon": "^1.13.2",
+    "nodemon": "^1.14.3",
     "serverless": "^1.24.1",
     "serverless-http": "^1.5.2",
     "typescript": "^2.6.2"
@@ -28,6 +28,6 @@
     "start": "tsc -p tsconfig.json && node ./index.js"
   },
   "devDependencies": {
-    "@types/node": "^8.5.1"
+    "@types/node": "^8.5.2"
   }
 }
