@@ -20,7 +20,7 @@
     "eslint": "^4.13.1",
     "express": "^4.16.2",
     "nodemon": "^1.14.3",
-    "serverless": "^1.24.1",
+    "serverless": "^1.25.0",
     "serverless-http": "^1.5.2",
     "typescript": "^2.6.2"
   },

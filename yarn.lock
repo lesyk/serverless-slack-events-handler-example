@@ -1672,6 +1672,10 @@ jsbn@~0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/jsbn/-/jsbn-0.1.1.tgz#a5e654c2e5a2deb5f201d96cefbca80c0ef2f513"
 
+json-cycle@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/json-cycle/-/json-cycle-1.3.0.tgz#c4f6f7d926c2979012cba173b06f9cae9e866d3f"
+
 json-refs@^2.1.5:
   version "2.1.7"
   resolved "https://registry.yarnpkg.com/json-refs/-/json-refs-2.1.7.tgz#b9eb01fe29f5ea3e92878f15aea10ad38b5acf89"
@@ -2030,6 +2034,10 @@ object-assign@^4.0.1, object-assign@^4.1.0:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
 
+object-hash@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/object-hash/-/object-hash-1.2.0.tgz#e96af0e96981996a1d47f88ead8f74f1ebc4422b"
+
 object.omit@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/object.omit/-/object.omit-2.0.1.tgz#1a9c744829f39dbb858c76ca3579ae2a54ebd1fa"
@@ -2199,6 +2207,10 @@ process-nextick-args@~1.0.6:
 progress@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/progress/-/progress-2.0.0.tgz#8a1be366bf8fc23db2bd23f10c6fe920b4389d1f"
+
+promise-queue@^2.2.3:
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/promise-queue/-/promise-queue-2.2.3.tgz#8534d76bf4673c3baa3a82bba01bd295cc30f14f"
 
 proto-list@~1.2.1:
   version "1.2.4"
@@ -2512,9 +2524,9 @@ serverless-http@^1.5.2:
   version "1.5.2"
   resolved "https://registry.yarnpkg.com/serverless-http/-/serverless-http-1.5.2.tgz#efc78498a5cddda7274aa5ff77a33e1acfc901a5"
 
-serverless@^1.24.1:
-  version "1.24.1"
-  resolved "https://registry.yarnpkg.com/serverless/-/serverless-1.24.1.tgz#dd092a186d404dc9e48151d1f7cc2df7d270355a"
+serverless@^1.25.0:
+  version "1.25.0"
+  resolved "https://registry.yarnpkg.com/serverless/-/serverless-1.25.0.tgz#23922d6514fcd9217d2740a52ba17c696734fb23"
   dependencies:
     "@serverless/fdk" "^0.5.1"
     apollo-client "^1.9.2"
@@ -2535,6 +2547,7 @@ serverless@^1.24.1:
     https-proxy-agent "^1.0.0"
     is-docker "^1.1.0"
     js-yaml "^3.6.1"
+    json-cycle "^1.3.0"
     json-refs "^2.1.5"
     jwt-decode "^2.2.0"
     lodash "^4.13.1"
@@ -2542,13 +2555,14 @@ serverless@^1.24.1:
     moment "^2.13.0"
     node-fetch "^1.6.0"
     node-forge "^0.7.1"
+    object-hash "^1.2.0"
     opn "^5.0.0"
+    promise-queue "^2.2.3"
     raven "^1.2.1"
     rc "^1.1.6"
     replaceall "^0.1.6"
     semver "^5.0.3"
     semver-regex "^1.0.0"
-    shelljs "^0.6.0"
     tabtab "^2.2.2"
     update-notifier "^2.2.0"
     uuid "^2.0.2"
@@ -2580,10 +2594,6 @@ shebang-command@^1.2.0:
 shebang-regex@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/shebang-regex/-/shebang-regex-1.0.0.tgz#da42f49740c0b42db2ca9728571cb190c98efea3"
-
-shelljs@^0.6.0:
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/shelljs/-/shelljs-0.6.1.tgz#ec6211bed1920442088fe0f70b2837232ed2c8a8"
 
 signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.2"
